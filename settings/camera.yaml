@@ -1,0 +1,7 @@
+%YAML:1.0
+---
+#绝对路径，同一种设备名称一样，不一样的设备拥有不一样的ID号
+camera_path: /dev/v4l/by-id/usb-XXH-8M_S-YUE_8MP_USB_Camera_200901010001-video-index0
+width: 1920
+height: 1080
+exposure: 166

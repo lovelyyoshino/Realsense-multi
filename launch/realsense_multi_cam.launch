@@ -1,0 +1,19 @@
+<launch>
+  <!-- <node pkg="real_sense_multi" type="realsense_multi_cam_d455_node" name="realsense_multi_cam_d455_node" output="screen">
+    <param name="rgb_width" type="int" value="640" />
+    <param name="rgb_width" type="int" value="480" />
+  </node> -->
+
+  <node pkg="real_sense_multi" type="realsense_multi_cam_t265_node" name="realsense_multi_cam_t265_node" output="screen">
+    <param name="rgb_width" type="int" value="848" />
+    <param name="rgb_width" type="int" value="800" />
+  </node>
+
+  <!-- <node pkg="real_sense_multi" type="fisheye_node" name="fisheye_node" output="screen">
+  </node> -->
+
+  <!-- <node pkg="real_sense_multi" type="rtk_node" name="rtk_node" output="screen">
+  </node> -->
+
+
+</launch>
