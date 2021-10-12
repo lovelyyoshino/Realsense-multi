@@ -14,7 +14,6 @@
 #include <iostream>
 #include <algorithm>
 
-//参考：https://github.com/ljxwy/RStest_c/blob/master/main.cpp
 void Enable_emitter(rs2::pipeline_profile selection) 
 {
   rs2::device selected_device = selection.get_device();
